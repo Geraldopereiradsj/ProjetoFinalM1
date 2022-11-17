@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container-0 {
+    width: 1280px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.titulo-1 {
+    color: #333333;
+    font-size: 28px;
+}
+
+
+.container>ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bold {
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 7px;
+}
+
+.bold:hover{
+    background-color: #37268C;
+    color: #F5F5F5;
+}
+
+.itens {
+    color: #828282;
+    font-size: 16px;
+    margin: 7px;
+}
+
+.itens:hover {
+    background-color: #37268C;
+    color: #F5F5F5;
+}
+
+
+.container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-2>ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-2>ul>li {
+    border: #F5F5F5 solid 3px;
+    height: 420px;
+    width: 250px;
+    margin: 30px auto;
+}
+
+.container-2>ul>li:hover {
+    border: solid 3px #37268C;
+}
+
+.container-4 {
+    margin-top: 30px;
+    width: 255px;
+    height: 250px;
+}
+
+
+.image {
+    height: 150px;
+    width: 250px;
+    background-color: #F5F5F5;
+}
+
+.botao {
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    margin: 20px;
+    font-size: 16px;
+    color: #F5F5F5;
+    background-color: #2E245E;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.botao:hover{
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.titulo-2 {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    color: #333333;
+    margin: 20px;
+}
+
+.paragrafo-valor {
+    color: #37268C;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.carrinho {
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid transparent;
+    color: #333333;
+    margin: 15px;
+}
+
+.carrinho:hover {
+    background-color:#37268C;
+    color: #F5F5F5;
+}
+
+
+
+.container-3 {
+    width: 350px;
+}
+
+
+.container-3>form>input {
+    width: 250px;
+    height: 30px;
+    background-color: #F5F5F5;
+}
+
+.container-3>form>button {
+    width: 87px;
+    border: none;
+    background-color: #37268C;
+    height: 36px;
+    color: #F5F5F5;
+}
+
+.container-3>form>button:hover{
+    border: solid 4px #F5F5F5;
+    background-color: #333333;
+    
+}
+
+
+.carrinho-compras {
+    width: 350px;
+}
+
+
+.carrinho-compras>h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: #F5F5F5;
+    margin-top: 20px;
+    width: 350px;
+    height: 35px;
+    background-color: #37268C;
+}
+
+.carrinho-compras>.carrinho-vazio {
+    display: flex;
+    width: 350px;
+    text-align: center;
+    background-color: #F5F5F5;
+    height: 385px;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+}
+
+.carrinho-compras>.carrinho-vazio>ul>li>h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.carrinho-compras>.carrinho-vazio>ul>li>p {
+    padding: 4px;
+    font-size: 18px;
+}
+
+#carrinhoRemover{
+    overflow: auto;
+    height: 100%;
+}
+
+#carrinhoRemover li{
+    display: flex;
+    padding: 14px;
+    align-items: center;
+}
+
+.image-2 {
+    height: 50px;
+    background-color: #F5F5F5;
+}
+
+.titulo-carrinho {
+    font-weight: bold;
+}
+
+.paragrafo-carrinho {
+    font-weight: bold;
+}
+
+.botao-remover{
+border: solid 1px transparent;
+}
+
+.botao-remover:hover{
+    border: solid 1px #37268C;
+
+}
+
+
+#container-id {
+    width: 350px;
+    height: 100px;
+    background-color: #333333;
+}
+
+#container-id>ul {
+    padding-top: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-letra li p {
+    color: #F5F5F5;
+    padding: 5px;
+    text-align: initial;
+}
+
+#container-numero li p {
+    text-align: end;
+    color: #F5F5F5;
+    padding: 5px;
+}
+
+.quantidade {
+    font-weight: bold;
+}
+
+.total {
+    font-weight: bold;
+}
